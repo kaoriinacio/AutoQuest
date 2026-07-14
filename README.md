@@ -1,64 +1,74 @@
-AutoQuest – BetterDiscord Plugin
-Automatically completes Discord quests after you accept them manually.
+# 🎯 AutoQuest – BetterDiscord Plugin
 
-About
-This plugin is an adaptation of the original script by aamiaa for BetterDiscord.
+**Auto‑complete Discord quests after you manually accept them.**
 
-It adds a visual progress panel and auto‑completes quests you've already accepted.
+---
 
-How It Works
-You accept a quest in the Discord Quests tab.
+## ℹ️ About
 
-The plugin detects the active quest and starts tracking progress.
+This plugin is an adaptation of the original script by [aamiaa](https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb) for BetterDiscord.
 
-A draggable panel shows live progress (bar + percentage).
+It adds a **visual progress panel** and automatically completes quests you've already enrolled in.
 
-When finished, it moves to the next active quest automatically.
+---
 
-⚠️ The plugin does NOT accept quests for you – you must accept them manually first.
+## ⚙️ How It Works
 
-Features
-Auto‑detects active quests (video, game, stream, activity)
+1. **You** accept a quest in the Discord Quests tab.
+2. The plugin detects the active quest and starts tracking progress.
+3. A draggable panel shows live progress (bar + percentage).
+4. When finished, it moves to the next active quest automatically.
 
-Live progress bar with seconds and percentage
+> ⚠️ **The plugin does NOT accept quests for you – you must accept them manually first.**
 
-Draggable panel (drag by header)
+---
 
-Works on Discord desktop app (required for game/stream quests)
+## ✨ Features
 
-Installation
-Manual
-Download AutoQuest.plugin.js
+- ✅ Auto‑detects active quests (video, game, stream, activity)
+- 📊 Live progress bar with seconds and percentage
+- 🖱️ Draggable panel (drag by the header)
+- 💻 Works on Discord desktop app (required for game/stream quests)
 
-Go to Discord Settings > Plugins > Open Plugin Folder
+---
 
-Paste the file there
+## 📥 Installation
 
-Reload Discord with Ctrl + R
+### Manual
+1. Download [`AutoQuest.plugin.js`](https://raw.githubusercontent.com/kaoriinacio/AutoQuest/main/AutoQuest.plugin.js)
+2. Go to Discord **Settings > Plugins > Open Plugin Folder**
+3. Paste the file there
+4. Reload Discord with `Ctrl + R`
+5. Enable the plugin
 
-Enable the plugin
+### Official Store (when approved)
+Find it in the plugin store and click **Install**.
 
-Official Store (when approved)
-Find it in the plugin store and click Install.
+---
 
-Requirements
-Discord Desktop App (game/stream quests won't work in browser)
+## 📋 Requirements
 
-For STREAM_ON_DESKTOP: at least 1 other person in voice chat
+- **Discord Desktop App** – game/stream quests won't work in browser
+- For `STREAM_ON_DESKTOP`: at least **1 other person** in voice chat
+- **You must accept the quest manually** before the plugin can complete it
 
-You must accept the quest manually before the plugin can complete it
+---
 
-Important Notes
-Use at your own risk – this violates Discord ToS and you may be flagged
+## ⚠️ Important Notes
 
-The plugin does not accept quests, skip them, or bypass any restrictions
+- **Use at your own risk** – this violates Discord ToS and you may be flagged.
+- The plugin does **not** accept quests, skip them, or bypass any restrictions.
+- It only simulates activity for quests you are already enrolled in.
 
-It only simulates activity for quests you already enrolled in
+---
 
-Credits
-Original script: aamiaa
+## 🙏 Credits
 
-BetterDiscord adaptation & UI: developed with AI assistance
+- **Original script** – [aamiaa](https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb)
+- **BetterDiscord adaptation & UI** – developed with AI assistance
 
-License
+---
+
+## 📄 License
+
 Educational purposes only. Use entirely at your own risk.
